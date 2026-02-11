@@ -46,7 +46,4 @@ Replace NAME and PASSWORD with the account name and password.
 
 ---------------------------------------------------------------------------
 
-💡 Tip: Passwords are secured using SHA-256 hashing, so even if someone accesses your JSON file, they won't be able to see the passwords in plain text.
-⚠️ The account must be logged in for the message to be displayed.
-
 💡 Tip: Passwords are secured using SHA-256 hashing, so even if someone accesses your JSON file, they will not be able to see the passwords in plain text.
