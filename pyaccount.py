@@ -18,12 +18,11 @@ def enter(name, password):
     updt_json()
 
 def exit(name):
-    def exit(name):
-        if name in conctdprsn:
-            conctdprsn.remove(name)
-            print(f"{name} disconnected!")
-        else:
-            print("Can't disconnect, user not connected.")
+    if name in conctdprsn:
+        conctdprsn.remove(name)
+        print(f"{name} disconnected!")
+    else:
+        print("Can't disconnect, user not connected.")
 
 def connect(name, pwd):
     if name not in data["users"]:
@@ -41,3 +40,4 @@ def welcome(name):
         print(f"Welcome {name}!")
     else:
         print("Sorry, you’re not connected to this account.")
+
