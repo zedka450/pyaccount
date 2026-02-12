@@ -1,6 +1,6 @@
 Pyaccount (or Pyacnt)
 
-Pyaccount is a Python extension that allows you to manage profiles: easily create, connect, delete, and greet users.
+Pyaccount is a Python extension that allows you to manage profiles: easily create, connect, delete, add data, read data and greet users.
 
 ------------------------------------------------------------ ------
 
