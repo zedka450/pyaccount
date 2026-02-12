@@ -44,6 +44,22 @@ Replace NAME and PASSWORD with the account name and password.
 `pyaccount.welcome(NAME)`
 ⚠️ The account must be logged in for the message to be displayed.
 
+-Add data to an account
+
+`pyaccount.set_data(NAME, KEY, VALUE)`
+
+Replace NAME, VALUE, and KEY with the account name, the data, and the data name.
+
+⚠️The account must be connected to add data.
+
+-Read data from an account
+
+`pyaccount.get_data(NAME, KEY)`
+
+Replace NAME and KEY with the account name and data name.
+
+⚠️The account must be connected to read data.
+
 ---------------------------------------------------------------------------
 
 💡 Tip: Passwords are secured using SHA-256 hashing, so even if someone accesses your JSON file, they will not be able to see the passwords in plain text.
